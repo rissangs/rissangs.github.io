@@ -1,1 +1,30 @@
-theme: jekyll-theme-cayman
+# theme: jekyll-theme-cayman
+
+# Setup
+title:               Sang Yoon's Blog
+description:         'A blog of Sang Yoon Lee for ML and stat issues'
+url:                 
+baseurl:             ''
+paginate:            5
+future: true
+plugins:
+  - jekyll-theme-cayman
+
+# Page
+pages_list: 
+  Projects: '/my-projects'
+  About Me: '/about'
+  Blog: '/blog'
+  Contact: '/contact'
+  Tags: '/tags'
+
+
+
+# About/contact
+author:
+  name:              Sang Yoon Lee
+  url:               #
+  email:             rissangs@gmail.com
+
+# Custom vars
+version:             1.0.0
